@@ -43,7 +43,10 @@ If you use these models or the ideas in your research, please cite:
 
 ### Our results
 0. Result visualization :
-	![deep_result](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/images/deep_result.png)
+	![deep_result1](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-111.gif)
+	![deep_result2](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-50.gif)
+	![deep_result3](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-92.gif)
+	![deep_result4](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/3-105.gif)
 
 
 0. Quantitative results:
