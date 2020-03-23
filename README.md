@@ -1,22 +1,19 @@
 ﻿# SFGCNet-for-hot-metal-slag-segmentation
 
-By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),Anas Z. Abidin, [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/).
+By 
 
-University of Rochester.
 
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
 0. [Model](#model)
 0. [Annotation example](#annotation)
-0. [Traditional result](#traditional)
+0. [Traditional results](#traditional)
 0. [Our results](#ourresults)
 
 ### Introduction
 
 This repository contains a diagram of the model, part of our dataset's labeled results, and the results of model testing. The final table lists the test accuracy.
-
-![model](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/spie.gif)
 
 
 ### Citation
@@ -36,7 +33,7 @@ If you use these models or the ideas in your research, please cite:
 
 ### Annotation example
 
-![architecture](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/images/image-label.png)
+![annotation](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/images/image-label.png)
 
 
 ### Traditional result
@@ -46,14 +43,18 @@ If you use these models or the ideas in your research, please cite:
 
 ### Our results
 0. Result visualization :
-	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/h.png)
-	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/v.png)
+	![deep_result](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/images/deep_result.png)
+
 
 0. Quantitative results:
 
-	model|whole|peritumoral edema (ED)|FGD-enhan. tumor (ET)
-	:---:|:---:|:---:|:---:
-	Dense24 |0.74| 0.81| 0.80
-	Dense48 | 0.61|0.78|0.79
-	no-dense|0.61|0.77|0.78
-	dense24+n4correction|0.72|0.83|0.81
+	Models|hot metal|slag|robotic arm|blow pole|MIoU(%)|PA(%)|inference time(ms)
+	:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
+	BiSeNet |67.49|82.91|82.55|55.77|72.11|97.04|15.47
+	BiSeNet+SFGCN |64.55|82.98|80.66|71.16|74.84|96.97|18.28
+	ICNet|60.74 |69.54|67.17|72.92|67.59|94.61|44.62
+	ICNet+SFGCN|61.47|73.54|68.63|70.05|68.42|95.45|45.79  
+	FCN|68.22|83.08|83.62|64.63|74.89|97.15|66.67
+    FCN+SFGCN|68.24|83.76|84.92|71.23|77.04|97.26|67.46
+    ResNet50|55.06|78.97|79.15|71.32|71.13|96.38|30.18
+    ResNet50+SFGCN|66.29|73.04|76.92|72.49|72.19|95.62|30.73
