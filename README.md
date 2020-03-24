@@ -5,7 +5,6 @@ By
 
 ### Table of Contents
 0. [Introduction](#introduction)
-0. [Citation](#citation)
 0. [Model](#model)
 0. [Annotation example](#annotation)
 0. [Traditional results](#traditional)
@@ -14,11 +13,6 @@ By
 ### Introduction
 
 This repository contains a diagram of the model, part of our dataset's labeled results, and the results of model testing. The final table lists the test accuracy.
-
-
-### Citation
-
-If you use these models or the ideas in your research, please cite:
 
 
 ### Model
