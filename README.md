@@ -1,7 +1,5 @@
 ﻿# SFGCNet-for-hot-metal-slag-segmentation
 
-By 
-
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Model](#model)
