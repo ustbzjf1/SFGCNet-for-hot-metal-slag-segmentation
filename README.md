@@ -59,7 +59,6 @@ This repository contains a diagram of the model, part of our dataset's labeled r
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/ResNet50_SFGCN/2-111.gif"/></div>
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/ResNet50_SFGCN/2-50.gif"/></div>
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/ResNet50_SFGCN/2-92.gif"/></div>
-<div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/ResNet50_SFGCN/3-105.gif"/></div>
 
 
 
