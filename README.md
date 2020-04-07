@@ -3,9 +3,9 @@
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Model](#model)
-0. [Annotation example](#annotation example)
-0. [Traditional results](#traditional results)
-0. [Our results](#our results)
+0. [Annotation example](#annotationexample)
+0. [Traditional results](#traditionalresults)
+0. [Our results](#ourresults)
 
 ### Introduction
 
