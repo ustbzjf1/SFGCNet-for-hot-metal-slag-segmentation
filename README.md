@@ -41,7 +41,7 @@ Result visualization :
 ![deep_result2](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-50.gif)
 ![deep_result3](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-92.gif)
 ![deep_result4](https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/3-105.gif)
-```
+
 
 Quantitative results:
 
@@ -55,3 +55,6 @@ FCN|68.22|83.08|83.62|64.63|74.89|97.15|66.67|18.64|321.78
  FCN+SFGCN|68.24|83.76|84.92|71.23|78.38|97.26|67.46|21.86|324.52
  ResNet50|55.06|78.97|79.15|71.32|71.13|96.38|30.18|28.51|98.18
  ResNet50+SFGCN|66.29|73.04|76.92|72.49|75.00|95.62|30.73|28.75|98.57
+```
+
+```
