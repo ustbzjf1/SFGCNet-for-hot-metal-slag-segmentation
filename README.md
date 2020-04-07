@@ -2,7 +2,6 @@
 
 By 
 
-
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Model](#model)
@@ -35,7 +34,8 @@ This repository contains a diagram of the model, part of our dataset's labeled r
 
 
 ### Our results
-Result visualization :
+#### Result visualization :
+##### FCN+SFGCN
 
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-111.gif"/></div>
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/2-50.gif"/></div>
@@ -43,7 +43,7 @@ Result visualization :
 <div align=center><img  src="https://github.com/ustbzjf1/SFGCNet-for-hot-metal-slag-segmentation/blob/master/visual/3-105.gif"/></div>
 
 
-Quantitative results:
+#### Quantitative results:
 
 Models|hot metal|slag|robotic arm|blow pole|MIoU(%)|PA(%)|inference time(ms)|Params(s)|FLOPs(G)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
